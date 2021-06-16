@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
-@import url(//db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=BrandonGrotW01-Light);
+@import url('//db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=BrandonGrotW01-Light');
 
 @font-face {
     font-family: 'belindaregular';
@@ -255,7 +255,7 @@ body{
 .services{
 
     margin-left: 1.85rem;
-    max-height: 108vh;
+    max-height: 100vh;
     height: 100%;
     background: #c9d8bf;
     display: flex;
@@ -335,7 +335,7 @@ body{
     margin-top: 25px;
     align-self: center;
     border: 1px solid #1d3b2a;
-    width: 160px;
+    width: 165px;
     text-align: center;
     padding: 5px;
 }
@@ -343,7 +343,7 @@ body{
     text-decoration: none;
     color: #1d3b2a;
     opacity: 0.9;
-    padding: 5px 32px;
+    padding: 5px 25px;
 }
 .services .btn1:hover{
     background: #1d3b2a;
