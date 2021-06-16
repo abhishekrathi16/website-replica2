@@ -255,7 +255,7 @@ body{
 .services{
 
     margin-left: 1.85rem;
-    max-height: 120vh;
+    max-height: 108vh;
     height: 100%;
     background: #c9d8bf;
     display: flex;
@@ -335,7 +335,7 @@ body{
     margin-top: 25px;
     align-self: center;
     border: 1px solid #1d3b2a;
-    width: 150px;
+    width: 160px;
     text-align: center;
     padding: 5px;
 }
