@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+@import url(//db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=BrandonGrotW01-Light);
+
+@font-face {
+    font-family: 'belindaregular';
+    src: url('belinda-webfont.woff2') format('woff2'),
+         url('belinda-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    /* font-family: Arial,Helvetica,sans-serif; */
+    font-family: 'BrandonGrotW01-Light';
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vw;
+    max-height: 200vh;
+    height: 200vh;
+    background: white;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    max-width: 92vw;
+    width: 100%;
+}
+/* heading  */
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.logo .brand
+{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Belinda',serif;
+    font-style: italic;
+    text-decoration: none;
+    color: #1d3b2a;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.logo .sub{
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8rem;
+    margin-left: 25px;
+    margin-top: 4px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.navbar{
+    /* margin-right: 60px; */
+    display: flex;
+    flex-direction: column;
+}
+.navbar .login{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 320px;
+    justify-content: center;
+}
+.navbar .login a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.navbar .login i{
+    margin-top: 2px;
+    font-size: 20px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar li{
+    margin: 0px 10px;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #176338;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+/* sidebar  */
+.sidebar{
+    width: 30px;
+}
+
+.sidebar ul{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-left: 15px;
+    align-items: center;
+}
+.sidebar ul li{
+    list-style-type: disc;
+    list-style: none;
+    margin: 15px 0px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.sidebar ul li i{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* home section  */
+.home{
+    margin-left: 1.85rem;
+    background: url('./images/bg.jpg') no-repeat;
+    background-size: cover;
+    max-width: inherit;
+    max-height: 100vh;
+    height: 45.7%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home .content-box{
+    margin-right: 30rem;
+    font-size: 1.8rem;
+    width: 30vw;
+    background-color: white;
+    opacity: 0.8;
+    line-height: 2.8rem;
+    max-height: 90vh;
+    /* height: 60%; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 125px 45px;
+    flex-direction: column;
+    position: relative;
+    /* z-index: -1; */
+}
+.home .content-box .c{
+    font-family: 'Caudex', serif;
+    color: #1d3b2a;
+}
+.home .session-button a{
+    text-decoration: none;
+    color: #1d3b2a;
+    font-size: 1rem;
+    word-spacing: 0.2rem;
+    border: 1px solid #1d3b2a;
+    padding: 10px 20px;
+    width: 50px;
+    transition: all 0.4s ease;
+}
+.home .session-button a:hover{
+    color: white;
+    background-color: #1d3b2a;
+    opacity: 1;
+}
+.home .session-button{
+    line-height: 6rem;
+}
+
+/* about section  */
+
+.about{
+    display: flex;
+}
+
+.image{
+    margin-left: 145px;
+}
+
+.image img{
+    margin: 0px 20px;
+    height: 88vh;
+    width: 33vw;
+}
+
+.about .head{
+    font-family: 'Caudex', serif;
+    font-weight: lighter;
+    color: #1d3b2a;
+    margin: 35px;
+    /* margin-top: 60px; */
+    padding-top: 55px;
+    /* font-size: 2rem; */
+    margin-bottom: 10px;
+}
+
+.about .writeup{
+    padding: 35px;
+    padding-top: 0px;
+    width: 25rem;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.about .btn{
+    border: 1px solid #1d3b2a;
+    margin: 35px;
+    margin-top: 0px;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
+    transition: all 0.4s ease;
+}
+.about .btn a{
+    text-decoration: none;
+    color: #1d3b2a;
+    opacity: 0.8;
+    padding: 10px 33px;
+}
+.about .btn:hover{
+    color: white;
+    background-color: #1d3b2a;
+    opacity: 1;
+}
+.about .btn a:hover{
+    color: white;
+}
+
+.about .random-image img{
+    margin: 35px;
+    margin-top: 0px;
+    height: 299px;
+    width: 450px;
+}
+
+/* services section  */
+.services{
+
+    margin-left: 1.85rem;
+    max-height: 120vh;
+    height: 100%;
+    background: #c9d8bf;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+
+.services .head{
+    font-family: 'Caudex', serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 90px;
+    color: #1d3b2a;
+}
+
+.services .serviceBx{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+.serviceBox{
+    height: 250.6px;
+    width: 350px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    text-align: left;
+    padding-left: 60px;
+    line-height: 1.7rem;
+}
+.serviceBox .headie{
+    font-family: 'Caudex', serif;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color: #1d3b2a;
+}
+.imageBox{
+    height: 250.6px;
+    width: 350px;
+}
+.imageBox:hover{
+    background: black;
+    filter: brightness(80%);
+    cursor: pointer;
+}
+.imageBox img{
+    height: 250.6px;
+    width: 350px;
+}
+.serviceBox .write{
+    font-size: .8rem;
+}
+.serviceBox .button{
+    background: #1d3b2a;
+    text-align: center;
+    margin: 25px;
+    margin-left: 0px;
+    width: 90px;
+}
+.serviceBox .button a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+.serviceBox .button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.services .btn1{
+    margin-top: 25px;
+    align-self: center;
+    border: 1px solid #1d3b2a;
+    width: 150px;
+    text-align: center;
+    padding: 5px;
+}
+.services .btn1 a{
+    text-decoration: none;
+    color: #1d3b2a;
+    opacity: 0.9;
+    padding: 5px 32px;
+}
+.services .btn1:hover{
+    background: #1d3b2a;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.services .btn1 a:hover{
+    color: white;
+}
+
+/* recipes section  */
+.recipes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: -90px;
+    padding: 30px;
+    padding-top: 0px;
+    margin-left: 45px;
+}
+.recipes .imgbx{
+    width: 510px;
+    height: 480px;
+}
+.recipes .imgbx img{
+    width: 510px;
+    height: 480px;
+}
+.recipes .cntntbx{
+    width: 510px;
+    height: 480px;
+    text-align: left;
+    margin-left: 55px;
+    padding: 70px;
+    /* padding-right: 0; */
+    padding-top: 200px;
+    line-height: 1.5rem;
+    opacity: 0.9;
+}
+.recipes .cntntbx .h{
+    color: #1d3b2a;
+    font-family: 'Caudex', serif;
+    font-weight: lighter;
+}
+.recipes .cntntbx .write1{
+    font-size: 0.9rem;
+}
+
+.recipes .cntntbx .bttn{
+    border: 1px solid #1d3b2a;
+    text-align: center;
+    margin-top: 25px;
+    width: 150px;
+    padding: 6px 0px;
+    background: #1d3b2a;
+}
+.recipes .cntntbx .bttn a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+}
+.bttn:hover{
+    opacity: 00.8;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+/* card section  */
+.card{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+    margin-left: 707px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    position: absolute;
+    overflow: hidden;
+    z-index: 1;
+    background: white;
+}
+.card .image2{
+    width: 350px;
+    height: 240px;
+}
+.card .image2 img{
+    width: 350px;
+    height: 240px;
+}
+.card .cardwriteup{
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.card .cardwriteup .name,.card .cardwriteup .time{
+    font-size: 0.6rem;
+    opacity: 0.8;
+}
+.card .cardwriteup .question{
+    color: #1d3b2a;
+    font-family: 'Caudex', serif;
+    font-weight: lighter;
+}
+.card .cardwriteup .line{
+    background: black;
+    height: 1px;
+    opacity: 0.2;
+    margin-bottom: 10px;
+}
+.card .cardwriteup .reactions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card .cardwriteup .reactions #like{
+    color: red;
+}
+.card .cardwriteup .reactions i{
+    cursor: pointer;
+}
+
+/* contact section */
+.contact{
+    background: #1d3b2a;
+    height: 60vh;
+    width: 98vw;
+    margin-top: 290px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact .line1{
+    width: 90vw;
+    background: white;
+    height: 0.5px;
+    margin-top: 180px;
+}
+.contact .con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.contact .con .logo{
+    margin-right: 500px;
+
+}
+.contact .con .logo a{
+    /* text-align: left; */
+    color: white;
+    text-decoration: none;
+}
+.contact .con .navbar ul li a, .contact .con .navbar ul{
+    color: white;
+}
+.contact .con .navbar .list{
+    margin-left: 208px;
+}
+
+/* footer */
+.footer{
+    height: 30px;
+}
+.footer p{
+    margin-left: 50px;
+    font-size: 0.8rem;
+    color: #1d3b2a;
+}
+
+/* responsive styling */
+
+@media(max-width: 1160px){
+    .about .image img{
+        width: 37vw;
+        height: 80vh;
+    }
+    .about .image{
+        margin-left: 55px;
+    }
+    .card{
+        margin-top: 20px;
+        margin-left: 580px;
+    }
+    .contact .con .logo{
+        margin-right: 400px;
+    }
+}
