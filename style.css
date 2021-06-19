@@ -14,7 +14,8 @@
 @font-face {font-family: "BrandonGrotW01-Light"; src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot"); src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff") format("woff"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.svg#BrandonGrotW01-Light") format("svg"); }
 
 *{
-    font-family: 'BrandonGrotW01-Light',serif;
+    /* font-family: Arial,Helvetica,sans-serif; */
+    font-family: 'BrandonGrotW01-Light';
     box-sizing: border-box;
 }
 body{
@@ -256,7 +257,7 @@ body{
 .services{
 
     margin-left: 1.85rem;
-    max-height: 100vh;
+    max-height: 108vh;
     height: 100%;
     background: #c9d8bf;
     display: flex;
@@ -318,7 +319,7 @@ body{
     text-align: center;
     margin: 25px;
     margin-left: 0px;
-    width: 110px;
+    width: 90px;
 }
 .serviceBox .button a{
     text-decoration: none;
@@ -336,7 +337,7 @@ body{
     margin-top: 25px;
     align-self: center;
     border: 1px solid #1d3b2a;
-    width: 165px;
+    width: 160px;
     text-align: center;
     padding: 5px;
 }
@@ -344,7 +345,7 @@ body{
     text-decoration: none;
     color: #1d3b2a;
     opacity: 0.9;
-    padding: 5px 25px;
+    padding: 5px 32px;
 }
 .services .btn1:hover{
     background: #1d3b2a;
@@ -420,7 +421,7 @@ body{
     display: flex;
     flex-direction: column;
     /* width: 300px; */
-    margin-left: 850px;
+    margin-left: 830px;
     align-items: center;
     justify-content: center;
     padding: 0px;
