@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caudex&display=swap');
+@import url('//db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=BrandonGrotW01-Light');
+
+@font-face {
+    font-family: 'belindaregular';
+    src: url('belinda-webfont.woff2') format('woff2'),
+         url('belinda-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {font-family: "BrandonGrotW01-Light"; src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot"); src: url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.woff") format("woff"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6dd2f2510b4a00a5461b2455928209c2.svg#BrandonGrotW01-Light") format("svg"); }
+
+*{
+    /* font-family: Arial,Helvetica,sans-serif; */
+    font-family: 'BrandonGrotW01-Light';
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vw;
+    max-height: 100vh;
+    height: 200vh;
+    background: white;
+}
+.container1{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    max-width: 92vw;
+    width: 100%;
+}
+/* heading  */
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+.logo .brand
+{
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Belinda',serif;
+    font-style: italic;
+    text-decoration: none;
+    color: #1d3b2a;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.logo .sub{
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8rem;
+    margin-left: 25px;
+    margin-top: 4px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.navbar{
+    /* margin-right: 60px; */
+    display: flex;
+    flex-direction: column;
+}
+.navbar .login{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 320px;
+    justify-content: center;
+}
+.navbar .login a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.navbar .login i{
+    margin-top: 2px;
+    font-size: 20px;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar li{
+    margin: 0px 10px;
+    list-style: none;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #176338;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+/* sidebar  */
+.sidebar{
+    width: 30px;
+}
+
+.sidebar ul{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-left: 15px;
+    align-items: center;
+}
+.sidebar ul li{
+    list-style-type: disc;
+    list-style: none;
+    margin: 15px 0px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.sidebar ul li i{
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact{
+    background: #1d3b2a;
+    height: 30vh;
+    width: 98vw;
+    margin-top: 45px;
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact .con{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.contact .con .logo{
+    margin-right: 500px;
+
+}
+.contact .con .logo a{
+    /* text-align: left; */
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.contact .con .navbar ul li a, .contact .con .navbar ul{
+    color: white;
+    cursor: pointer;
+}
+.contact .con .navbar .list{
+    margin-left: 208px;
+}
+
+.contact .con .navbar .list ul li a:hover{
+    cursor: pointer;
+}
+
+/* footer */
+.footer{
+    height: 30px;
+}
+.footer p{
+    margin-left: 50px;
+    font-size: 0.8rem;
+    color: #1d3b2a;
+}
+
+/* services section  */
+.blogBox{
+    background: #c9d8bf;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.blogBox .head1{
+    font-family: 'Caudex', serif;
+    font-weight: lighter;
+    color: #1d3b2a;
+}
+.blogBox .write{
+    padding: 0px 320px;
+}
+.posts{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-grid{
+    display: grid;
+    grid-template-columns: repeat(3,320px);
+    grid-template-rows: repeat(2,430px);
+    grid-row-gap: 25px;
+    margin-left: 128px;
+    margin-top: 25px;
+}
+.card{
+    /* margin-top: -30px; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    overflow: hidden;
+    background: white;
+    border: 0.2px solid rgba(29, 58, 41, 0.2);
+    cursor: pointer;
+}
+.card .image2{
+    width: 350px;
+    height: 240px;
+}
+.card .image2 img{
+    width: 350px;
+    height: 240px;
+}
+.card .cardwriteup{
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.card .cardwriteup .name,.card .cardwriteup .time{
+    font-size: 0.6rem;
+    opacity: 0.8;
+}
+.card .cardwriteup .question{
+    color: #1d3b2a;
+    font-family: 'Caudex', serif;
+    font-weight: lighter;
+}
+.card .cardwriteup .line{
+    background: black;
+    height: 1px;
+    opacity: 0.2;
+    margin-bottom: 10px;
+}
+.card .cardwriteup .reactions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.abc{
+    margin-right: 170px;
+    margin-left: 2px;
+}
+.card .cardwriteup .reactions #like{
+    color: red;
+}
+.card .cardwriteup .reactions i{
+    cursor: pointer;
+}
+
+/* responsive styling */
+
+@media(max-width: 1160px){
+    .contact .con .logo{
+        margin-right: 400px;
+    }
+}
